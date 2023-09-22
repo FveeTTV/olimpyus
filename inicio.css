@@ -269,16 +269,6 @@ nav > ul > li > a:hover{
     margin-bottom: 10px;
 }
 
-#destinos a {
-    display: inline-block;
-    background-color: #023877;
-    color: #fff;
-    font-size: 18px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
 #destinos a:hover {
     background-color: #fff;
     color: #333;
