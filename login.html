@@ -8,10 +8,13 @@
   <body>
     <section id="logeo" class="form-login">
       <h5>Formulario Login</h5>
-      <input class="controls" type="text" name="usuario" value="" placeholder="Usuario">
-      <input class="controls" type="password" name="contrasena" value="" placeholder="Contraseña">
-      <input class="buttons" type="submit" name="" value="Ingresar">
+      <form action="login.php" method="get">
+        Nombre:<input class="controls" type="text" name="usuario" value="" placeholder="Ingrese su Nombre">
+        Contraseña: <input class="controls" type="password" name="contraseña" value="" placeholder="Ingrese su Contraseña">
+        <input class="buttons" type="submit" value="Ingresar">
+      </form>
       <A HREF="inicio.html"> Volver al Inicio</A>
+      <p><a href="./register.html">¿No tengo Cuenta?</a></p>
 
     </section>
 

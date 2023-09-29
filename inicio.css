@@ -46,6 +46,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     padding: 10px;
 }
+
 /* Barra del menu */
 
 .container__menu{
@@ -91,3 +92,184 @@ nav > ul > li > a:hover{
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0,5);    
 }
 
+/* Estilos para el banner */
+
+#banner {
+    background-image: url("./img/baner.jfif");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 185px;
+}
+
+#banner h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+#banner p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* acerca de*/
+
+#acerca-de {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+#acerca-de a{
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#acerca-de a:hover{
+    background-color: #fff;
+    color: #333;
+}
+
+#acerca-de p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#acerca-de .icono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#acerca-de .icono {
+    margin: 0 20px;
+    font-size: 36px;
+}
+
+#contactobg{
+    background-image: url(Re/baner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: auto;
+}
+
+/*turnos*/
+
+#btn-mas{
+    display: none;
+}
+.container{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.redes a, .btn-mas label{
+    display: block;
+    text-decoration: none;
+    background: #0074C7;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    transition: all 500ms ease;
+}
+.redes a:hover{
+    background: #fff;
+    color: #0074C7;
+}
+.redes a{
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-mas:checked~ .redes a{
+    margin-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+}
+.btn-mas label{
+    cursor: pointer;
+    background: #0074C7;
+    font-size: 23px;
+}
+#btn-mas:checked ~ .btn-mas label{
+    transform: rotate(135deg);
+    font-size: 25px;
+}
+
+/* Estilos para los destinos */
+
+#destinos{
+    padding: 50px;
+}
+
+#destinos h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+#destinos ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#destinos li {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#destinos img {
+    width: 43%;
+    height: 180px;
+    border-radius: 1000px;
+    margin-bottom: 10px;
+}
+
+#destinos h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+#destinos p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#destinos a:hover {
+    background-color: #fff;
+    color: #333;
+}
